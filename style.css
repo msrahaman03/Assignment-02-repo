@@ -7,11 +7,101 @@
 
 
 
-
+header{
+          max-width: 800px;
+          margin: 0 auto;
+          border: 2px solid gold;
+}
+main{
+          max-width: 800px;
+          margin: 0 auto;
+}
 
 .navbar{
           justify-content: space-between;
          
+}
+
+.nav-link{
+          margin-right: 30px;
+          text-decoration: none;
+        
+}
+
+.nav-item{
+          list-style: none;
+}
+
+/* banner style */
+.banner{
+          display: flex;
+
+          margin-top: 100px;
+}
+.banner-detils{
+          width:400px;
+}
+
+.banner-img{
+          width: 400px;
+}
+
+img{
+          width: 100%;
+}
+
+/* plan */
+
+.pln-conten{
+          text-align: center;
+}
+.plan-img-continer{
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          gap: 30px;
+}
+
+/* lover */
+
+.flower-conten{
+          margin-top: 50px;
+            position: relative;
+}
+
+.imgs{
+          width: 50%;
+            position: relative;
+}
+.img-1{
+          width: 400px;
+        
+}
+
+.img-2{
+          width: 100px;
+          position: absolute;
+          top: -45px;
+          right: -20px;
+          
+}
+
+
+.join-section{
+  width: 100%;
+  position: relative;
+}
+
+.join-1{
+
+  position: relative;
+
+}
+
+.join-btn{
+  position: absolute;
+  top: 150px;
+  left: 200px;
+
 }
 
 
@@ -22,5 +112,38 @@
           .hidden{
                     visibility: hidden;
           }
+
+          .no-nidden{
+                   
+             
+          }
+
+       
+.banner{
+          flex-direction: column-reverse;
+}
+
+
+.pln-conten{
+          text-align: center;
+}
+
+.plan-img-continer{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 30px;
+
+      
           
+
+}
+
+.flower-conten{
+          flex-direction: column;
+}
+
+.img-2{
+          visibility: hidden;
+}
+
 }
