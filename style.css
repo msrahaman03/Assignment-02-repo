@@ -1,0 +1,15 @@
+
+/* commen style */
+.display-flex{
+          display: flex;
+}
+
+
+
+
+
+
+.navbar{
+          justify-content: space-between;
+         
+}
